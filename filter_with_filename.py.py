@@ -21,7 +21,7 @@ def filter_the_image(inp_arr, inp_max_y, inp_max_x, inp_square_side_size, inp_gr
         fill_square(inp_arr, inp_square_side_size, grayscale_step, i) #вообще не понял как это сделать
 
 
-img = Image.open(input('Введите название исходного ихображения'))
+img = Image.open('img2.jpg')
 arr = np.array(img)
 print('1')
 max_y = len(arr)
